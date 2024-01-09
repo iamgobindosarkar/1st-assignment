@@ -15,6 +15,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding-bottom: 120px;
 }
 .gift-img{
     display: flex;
@@ -31,22 +32,20 @@
 }
 .gift{
     color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 .gift-portfolio{
     color: #070211;
-    font-family: 'Merriweather';
     font-size: 48px;
     font-weight: 900;
     margin-top: 22px;
 }
 .gift-description{
     color: rgba(7, 2, 17, 0.60);
-    font-family: 'Inter';
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -74,7 +73,6 @@ line-height: normal;
 .offer-title{
     color: #F00;
     text-align: center;
-    font-family: 'inter';
     font-size: 88px;
     font-weight: 700;
 
@@ -82,14 +80,12 @@ line-height: normal;
 .offer-description{
     color: #F00;
     text-align: center;
-    font-family: 'inter';
     font-size: 24px;
     font-weight: 500;
 }
 .catagories{
     color: #070211;
     text-align: center;
-    font-family: 'inter';
     font-size: 48px;
     font-weight: 700;
 }
@@ -97,6 +93,7 @@ line-height: normal;
     padding: 130px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
+    margin-top: 120px;
 }
 .newsletter-title{
     color: #070211;
@@ -134,4 +131,28 @@ line-height: normal;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
 }
+footer{
+    background: #070211;
+    display: flex;
+    margin-top: 120px;
+    padding: 100px;
+}
+.footer-column{
+    width: 100%;
+}
+.footer-contact{
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+.footer-address{
+    color: #FFF;
+}
+.call{
+    color: #FFF;
+}
+.copyright{
+    color: #fff;
+}
+
 
