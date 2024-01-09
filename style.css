@@ -1,10 +1,55 @@
 *{
     font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 .happy-new-year-img{
     position: relative;
     width: 100%;
     border-radius: 16px;
+    filter: brightness(50%);
+    
+}
+.new-year-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.gift-img{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.gift-img div{
+    min-width: 300px;
+}
+.gift-img img{
+    width: 100%;
+}
+.gift{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.gift-portfolio{
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 22px;
+}
+.gift-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
 }
 .new-year-title{
     position: absolute;
@@ -25,5 +70,26 @@
     color: #FFF;
     font-size: 72px;
     font-weight: 900;
+}
+.offer-title{
+    color: #F00;
+    text-align: center;
+    font-family: 'inter';
+    font-size: 88px;
+    font-weight: 700;
 
+}
+.offer-description{
+    color: #F00;
+    text-align: center;
+    font-family: 'inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+.catagories{
+    color: #070211;
+text-align: center;
+font-family: 'inter';
+font-size: 48px;
+font-weight: 700;
 }
